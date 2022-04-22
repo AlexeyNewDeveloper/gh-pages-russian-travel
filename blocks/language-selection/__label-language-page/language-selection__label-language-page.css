@@ -1,0 +1,10 @@
+.language-selection__label-language-page {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;    
+    cursor: pointer;
+}
+
+.language-selection__input-language-page:checked + .language-selection__label-language-page {
+    border-bottom: 3px solid #FFF;
+}

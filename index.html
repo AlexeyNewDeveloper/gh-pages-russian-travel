@@ -12,7 +12,37 @@
       href="./images/favicon/icon_map_russia.svg"
       type="image/svg"
     />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Путешествия по России</title>
   </head>
-  <body></body>
+  <body class="page">
+    <div class="page__container">
+      <header class="header">
+        <img src="./images/logo/logo.svg" alt="Логотип сайта." class="logo" />
+        <div class="language-selection">
+          <label class="language-selection__item"
+            ><input
+              type="radio"
+              name="language-page"
+              class="language-selection__input-language-page"
+              value="ru"
+              checked
+            />
+            <span class="language-selection__label-language-page"
+              >Ru</span
+            ></label
+          >
+          <label class="language-selection__item"
+            ><input
+              type="radio"
+              name="language-page"
+              class="language-selection__input-language-page"
+              value="en"
+            />
+            <span class="language-selection__label-language-page">En</span>
+          </label>
+        </div>
+      </header>
+    </div>
+  </body>
 </html>
