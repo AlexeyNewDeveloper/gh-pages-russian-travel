@@ -13,3 +13,13 @@
 @import url(../blocks/language-selection/__input-language-page/language-selection__input-language-page.css);
 @import url(../blocks/language-selection/__label-language-page/language-selection__label-language-page.css);
 @import url(../blocks/language-selection/__item/language-selection__item.css);
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/main/__lead/main__lead.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__map/lead__map.css);
+@import url(../blocks/lead/__image-container/lead__image-container.css);
+@import url(../blocks/lead/__signature/lead__signature.css);
