@@ -14,8 +14,14 @@
 @import url(../blocks/language-selection/__label-language-page/language-selection__label-language-page.css);
 @import url(../blocks/language-selection/__item/language-selection__item.css);
 
+/* Block main */
+
 @import url(../blocks/main/main.css);
 @import url(../blocks/main/__lead/main__lead.css);
+@import url(../blocks/main/__intro/main__intro.css);
+@import url(../blocks/main/__photo-grid/main__photo-grid.css);
+
+/* Block lead */
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -23,3 +29,15 @@
 @import url(../blocks/lead/__map/lead__map.css);
 @import url(../blocks/lead/__image-container/lead__image-container.css);
 @import url(../blocks/lead/__signature/lead__signature.css);
+
+/* Block intro */
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__text/intro__text.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list/_text-weight/intro__list_text-weight_400.css);
+
+/* Block photo-grid */
+
+@import url(../blocks/photo-grid/photo-grid.css);

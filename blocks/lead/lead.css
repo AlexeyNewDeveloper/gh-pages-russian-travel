@@ -1,6 +1,4 @@
 .lead {
-    max-width: 984px;
+    max-inline-size: 984px;
     text-align: center;
-
-    border: 2px solid yellow;
 }

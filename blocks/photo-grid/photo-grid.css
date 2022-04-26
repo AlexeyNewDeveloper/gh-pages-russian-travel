@@ -1,0 +1,10 @@
+.photo-grid {
+    position: relative;
+    display: grid;
+    max-inline-size: 1184px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+    padding-inline-start: 48px;
+    padding-inline-end: 48px;
+}

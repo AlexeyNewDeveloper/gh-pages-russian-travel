@@ -1,7 +1,12 @@
 .page__container {
-    min-width: 1280px;
-    min-height: 100vh;
+    max-inline-size: 1280px;
+    min-block-size: 100vh;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 28px 48px 24px;
+    padding-block-start: 28px;
+    padding-block-end: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid green;
 }

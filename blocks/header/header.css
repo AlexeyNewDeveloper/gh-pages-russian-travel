@@ -2,8 +2,10 @@
     margin: 0;
     display: flex;
     box-sizing: border-box;
-    width: 100%;
-    height: 52px;
+    inline-size: 100%;
+    block-size: 52px;
     justify-content: space-between;
     align-items: center;
+    padding-inline-start: 48px;
+    padding-inline-end: 48px;
 }
