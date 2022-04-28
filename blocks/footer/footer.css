@@ -1,10 +1,11 @@
-.header {
+.footer {
     margin: 0;
+    margin-block-start: 92px;
     display: flex;
     box-sizing: border-box;
     max-inline-size: 1184px;
     inline-size: 100%;
-    block-size: 52px;
     justify-content: space-between;
     align-items: center;
+    justify-self: flex-end;
 }

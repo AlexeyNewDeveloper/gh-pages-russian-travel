@@ -1,0 +1,5 @@
+.place__image {
+    max-inline-size: 460px;
+    max-block-size: 460px;
+    object-fit: cover;
+}

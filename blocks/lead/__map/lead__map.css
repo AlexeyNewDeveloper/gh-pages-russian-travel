@@ -1,3 +1,4 @@
 .lead__map {
-    width: 100%;
+    margin-block-start: 64px;
+    max-inline-size: 100%;
 }

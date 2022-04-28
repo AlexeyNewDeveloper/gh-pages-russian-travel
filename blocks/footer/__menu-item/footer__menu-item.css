@@ -1,0 +1,7 @@
+.footer__menu-item {
+    margin-inline-end: 18px;
+}
+
+.footer__menu-item:last-child {
+    margin-inline-end: 0;
+}
