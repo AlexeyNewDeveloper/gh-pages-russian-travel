@@ -4,4 +4,9 @@
     block-size: 100%;
     text-decoration: none;
     color: #fff;
+    position: relative;
+}
+
+.cover__link:hover > .cover__image {
+    opacity: 0.3;
 }

@@ -1,0 +1,9 @@
+.cover__text-container {
+    padding-block-start: calc(100%/4.83);
+    box-sizing: border-box;
+    inline-size: 100%;
+    block-size: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+}

@@ -1,6 +1,6 @@
 .page__container {
     max-inline-size: 1280px;
-    min-block-size: 100vh;
+    min-block-size: 100%;
     box-sizing: border-box;
     margin: 0 auto;
     padding-block-start: 28px;
