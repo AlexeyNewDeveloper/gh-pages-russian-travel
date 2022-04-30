@@ -1,3 +1,25 @@
-.container:nth-child(1n) {
-    color: red;
+.container {
+    width: 100%;
+    max-width: 1184px;
+    height:100%;
+    max-height: 740px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.class-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+    width: 100%;
+    padding-bottom: calc(100%*0.625);
+    background-image: url(../images/cover/trains.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    box-sizing: border-box;
 }

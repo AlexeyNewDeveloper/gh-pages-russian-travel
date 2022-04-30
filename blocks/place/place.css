@@ -1,4 +1,8 @@
 .place {
     inline-size: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: 460px minmax(min-content, max-content);
+    grid-template-rows: auto min-content;
+    column-gap: 40px;
+    row-gap: 48px;
 }
