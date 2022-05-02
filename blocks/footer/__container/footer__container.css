@@ -4,6 +4,15 @@
     box-sizing: border-box;
     max-inline-size: 1184px;
     inline-size: 100%;
+    max-block-size: 18px;
     justify-content: space-between;
     align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+    .footer__container {
+        flex-direction: column;
+        max-block-size: 100%;
+        align-items: flex-start;
+    }
 }

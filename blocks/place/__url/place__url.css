@@ -7,3 +7,12 @@
     color: #AAAAAA;
     align-self: end;
 }
+
+
+
+@media screen and (max-width: 320px) {
+    .place__url {
+        padding-inline-start: 16px;
+        padding-inline-end: 16px; 
+    }
+}

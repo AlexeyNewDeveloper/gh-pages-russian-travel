@@ -5,3 +5,14 @@
 .footer__menu-item:last-child {
     margin-inline-end: 0;
 }
+
+
+@media screen and (max-width: 320px) {
+    .footer__menu-item {
+        margin-block-end: 32px;
+    }
+
+    .footer__menu-item:last-child {
+        margin-block-end: 48px;
+    }
+}

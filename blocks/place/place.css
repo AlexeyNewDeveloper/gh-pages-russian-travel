@@ -1,8 +1,39 @@
 .place {
+    max-inline-size: calc(984px + 2*48px);
     inline-size: 100%;
+    box-sizing: border-box;
+    padding-inline-start: 48px;
+    padding-inline-end: 48px; 
     display: grid;
     grid-template-columns: 460px minmax(min-content, max-content);
     grid-template-rows: auto min-content;
     column-gap: 40px;
     row-gap: 48px;
+    
 }
+
+@media screen and (max-width: 1024px) {
+    .place {
+        grid-template-columns: 440px minmax(min-content, max-content);
+        column-gap: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place {
+        padding-inline-start: 24px;
+        padding-inline-end: 24px; 
+        grid-template-columns: 340px minmax(min-content, max-content);
+        column-gap: 28px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place {
+        padding-inline-start: 0;
+        padding-inline-end: 0; 
+        grid-template-columns: 320px;
+        row-gap: 32px;
+    }
+}
+

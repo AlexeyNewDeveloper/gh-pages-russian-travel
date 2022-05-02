@@ -1,4 +1,22 @@
 .main__lead {
     margin: 0;
     margin-block-start: 56px;
+    max-inline-size: calc(984px + 2*48px);
+    box-sizing: border-box;
+    padding-inline-start: 48px;
+    padding-inline-end: 48px; 
+}
+
+@media screen and (max-width: 768px) {
+    .main__lead {
+        padding-inline-start: 0;
+        padding-inline-end: 0; 
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .main__lead {
+        margin-block-start: 48px;
+    }
 }

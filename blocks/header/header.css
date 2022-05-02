@@ -1,10 +1,21 @@
 .header {
     margin: 0;
-    display: flex;
-    box-sizing: border-box;
-    max-inline-size: 1184px;
     inline-size: 100%;
-    block-size: 52px;
-    justify-content: space-between;
-    align-items: center;
+    padding-inline-start: 48px;
+    padding-inline-end: 48px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        padding-inline-start: 24px;
+        padding-inline-end: 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        padding-inline-start: 16px;
+        padding-inline-end: 16px;
+    }   
 }

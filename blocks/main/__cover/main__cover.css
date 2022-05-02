@@ -2,3 +2,17 @@
     margin-block-start: 92px;
     margin-block-end: 92px;
 }
+
+@media screen and (max-width: 768px) {
+    .main__cover {
+        margin-block-start: 90px;
+        margin-block-end: 88px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .main__cover {
+        margin-block-start: 66px;
+        margin-block-end: 64px;
+    }
+}

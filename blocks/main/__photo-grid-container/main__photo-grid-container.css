@@ -1,5 +1,24 @@
 .main__photo-grid-container {
     margin-block-start: 92px;
     margin-block-end: 92px;
-    inline-size: 100%;
+    box-sizing: border-box;
+    padding-inline-start: 48px;
+    padding-inline-end: 48px; 
+    max-inline-size: 100%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .main__photo-grid-container {
+        padding-inline-start: 24px;
+        padding-inline-end: 24px; 
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .main__photo-grid-container {
+        margin-block-start: 64px;
+    margin-block-end: 64px;
+    }
 }

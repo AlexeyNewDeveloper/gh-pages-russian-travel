@@ -17,86 +17,86 @@
   </head>
   <body class="page">
     <div class="page__container">
-      <header class="header">
-        <img src="./images/logo/logo.svg" alt="Логотип сайта." class="logo" />
-        <div class="language-selection">
-          <label class="language-selection__item"
-            ><input
-              type="radio"
-              name="language-page"
-              class="language-selection__input-language-page"
-              value="ru"
-              checked
-            />
-            <span class="language-selection__label-language-page"
-              >Ru</span
-            ></label
-          >
-          <label class="language-selection__item"
-            ><input
-              type="radio"
-              name="language-page"
-              class="language-selection__input-language-page"
-              value="en"
-            />
-            <span class="language-selection__label-language-page">En</span>
-          </label>
+      <header class="header page__header">
+        <div class="header__container">
+          <img src="./images/logo/logo.svg" alt="Логотип сайта." class="logo" />
+          <div class="language-selection">
+            <label class="language-selection__item"
+              ><input
+                type="radio"
+                name="language-page"
+                class="language-selection__input-language-page"
+                value="ru"
+                checked
+              />
+              <span class="language-selection__label-language-page"
+                >Ru</span
+              ></label
+            >
+            <label class="language-selection__item"
+              ><input
+                type="radio"
+                name="language-page"
+                class="language-selection__input-language-page"
+                value="en"
+              />
+              <span class="language-selection__label-language-page">En</span>
+            </label>
+          </div>
         </div>
       </header>
       <main class="main">
-        <div class="main__content-container">
-          <section class="lead main__lead">
-            <h1 class="lead__title">Путешествия по России</h1>
-            <p class="lead__subtitle">
-              Настоящая страна не в выпусках новостей, а здесь.
+        <section class="lead main__lead">
+          <h1 class="lead__title">Путешествия по России</h1>
+          <p class="lead__subtitle">
+            Настоящая страна не в выпусках новостей, а здесь.
+          </p>
+          <img
+            src="./images/lead/lead-polka.jpg"
+            alt="Карта путешествия."
+            class="lead__map"
+          />
+          <p class="lead__signature">ваша полка — верхняя</p>
+        </section>
+        <section class="intro main__intro">
+          <div class="intro__container">
+            <h2 class="intro__title">Чего мы там не видели?</h2>
+            <p class="intro__text">
+              По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но
+              только 36% планируют провести отпуск в родной стране. Мол, чего мы
+              тут, дома, не видели? На самом деле, Россия — это целая вселенная
+              с ласковым морем юга, густыми лесами Саян и суровыми льдами плато
+              Путорана. А ещё увидеть все эти красоты можно без миллионов на
+              счету, загранпаспорта и многочасовых перелетов. Как, например,
+              Вера Башмакова — смелая молодая мама, которая взяла в охапку троих
+              детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по
+              родной стране. Мы выбрали и описали некоторые интересные места,
+              достойные вашего отпуска.
             </p>
-            <img
-              src="./images/lead/lead-polka.jpg"
-              alt="Карта путешествия."
-              class="lead__map"
-            />
-            <p class="lead__signature">ваша полка — верхняя</p>
-          </section>
-          <section class="intro main__intro">
-            <div class="intro__container">
-              <h2 class="intro__title">Чего мы там не видели?</h2>
-              <p class="intro__text">
-                По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но
-                только 36% планируют провести отпуск в родной стране. Мол, чего
-                мы тут, дома, не видели? На самом деле, Россия — это целая
-                вселенная с ласковым морем юга, густыми лесами Саян и суровыми
-                льдами плато Путорана. А ещё увидеть все эти красоты можно без
-                миллионов на счету, загранпаспорта и многочасовых перелетов.
-                Как, например, Вера Башмакова — смелая молодая мама, которая
-                взяла в охапку троих детей, усадила их в свою «Ладу» и проехала
-                20 тысяч километров по родной стране. Мы выбрали и описали
-                некоторые интересные места, достойные вашего отпуска.
-              </p>
-              <ul class="intro__list">
-                <li>
-                  Часовых поясов
-                  <span class="intro__list_text-weight_400">11</span>
-                </li>
-                <li>
-                  Объектов природного наследия ЮНЕСКО
-                  <span class="intro__list_text-weight_400">12</span>
-                </li>
-                <li>
-                  Объектов культурного наследия ЮНЕСКО
-                  <span class="intro__list_text-weight_400">16</span>
-                </li>
-                <li>
-                  Природных заповедников
-                  <span class="intro__list_text-weight_400">105</span>
-                </li>
-                <li>
-                  Аэропортов
-                  <span class="intro__list_text-weight_400">241</span>
-                </li>
-              </ul>
-            </div>
-          </section>
-        </div>
+            <ul class="intro__list">
+              <li>
+                Часовых поясов
+                <span class="intro__list_text-weight_400">11</span>
+              </li>
+              <li>
+                Объектов природного наследия ЮНЕСКО
+                <span class="intro__list_text-weight_400">12</span>
+              </li>
+              <li>
+                Объектов культурного наследия ЮНЕСКО
+                <span class="intro__list_text-weight_400">16</span>
+              </li>
+              <li>
+                Природных заповедников
+                <span class="intro__list_text-weight_400">105</span>
+              </li>
+              <li>
+                Аэропортов
+                <span class="intro__list_text-weight_400">241</span>
+              </li>
+            </ul>
+          </div>
+        </section>
         <div class="main__photo-grid-container">
           <div class="photo-grid">
             <img
@@ -161,7 +161,7 @@
             />
           </div>
         </div>
-        <div class="main__content-container">
+        <div class="main__place-container">
           <section class="place main__place">
             <h2 class="place__title">Куршская коса</h2>
             <p class="place__url">
@@ -323,7 +323,10 @@
               class="cover__image"
             />
             <div class="cover__text-container">
-              <h2 class="cover__title">До Байкала «на собаках»</h2>
+              <h2 class="cover__title">
+                До Байкала<br />
+                «на собаках»
+              </h2>
               <p class="cover__subtitle">
                 По мотивам учебной темы о Транссибе — путешествие от столицы до
                 Байкала на электричках.

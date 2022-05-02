@@ -7,3 +7,9 @@
     left: 0;
     position: absolute;
 }
+
+@media screen and (max-width: 320px) {
+    .cover__text-container {
+        padding-block-start: 33px;
+    }
+}

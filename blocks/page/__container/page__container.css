@@ -9,3 +9,9 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width: 320px) {
+    .page__container {
+        padding-block-start: 16px;
+    }
+}

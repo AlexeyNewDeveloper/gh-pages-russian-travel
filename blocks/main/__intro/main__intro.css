@@ -1,5 +1,11 @@
 .main__intro {
     margin: 0;
     margin-block-start: 92px;
-    
+}
+
+
+@media screen and (max-width: 320px) {
+    .main__intro {
+        margin-block-start: 64px;
+    }
 }

@@ -2,3 +2,10 @@
     margin-block-start: 64px;
     max-inline-size: 100%;
 }
+
+@media screen and (max-width: 320px) {
+    .lead__map {
+        margin-block-start: 40px;
+
+    }
+}
