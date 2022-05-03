@@ -2,7 +2,7 @@
     border-bottom: 3px solid #fff;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .language-selection__link_checked {
         border-bottom: 2px solid #fff;
     }

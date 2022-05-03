@@ -1,5 +1,7 @@
 .main__place {
     margin-block-end: 80px;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }
 
 .main__place:last-of-type {

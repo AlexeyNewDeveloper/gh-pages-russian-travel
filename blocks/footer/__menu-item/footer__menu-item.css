@@ -1,5 +1,6 @@
 .footer__menu-item {
     margin-inline-end: 18px;
+
 }
 
 .footer__menu-item:last-child {
@@ -7,12 +8,10 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
     .footer__menu-item {
         margin-block-end: 32px;
     }
 
-    .footer__menu-item:last-child {
-        margin-block-end: 48px;
-    }
 }
+
