@@ -6,6 +6,20 @@
     max-inline-size: 560px;
 }
 
+@media screen and (max-width: 768px) {
+    .cover__title {
+        font-size: 9.3vw;
+        line-height: 1.05;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
 
 @media screen and (max-width: 320px) {
     .cover__title {

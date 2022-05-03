@@ -1,9 +1,28 @@
 .cover {
+    position: relative;
     inline-size: 100%;
     max-inline-size: 1184px;
     text-align: center;
+    padding-block-start: calc(100%/4.83);
+    padding-block-end: calc(100%/4.83);
+    
 }
 
+.cover::before {
+    content: " ";
+    background-image: url(../../images/cover/trains.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    block-size: 100%;
+    inline-size: 100%;
+    opacity: 0.8;
+    transition: opacity 0.3s linear;
+}
 
-
-
+.cover:hover::before {
+    opacity: 0.3;
+}
