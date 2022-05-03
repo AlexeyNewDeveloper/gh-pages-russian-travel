@@ -1,0 +1,9 @@
+.language-selection__link_checked {
+    border-bottom: 3px solid #fff;
+}
+
+@media screen and (max-width: 320px) {
+    .language-selection__link_checked {
+        border-bottom: 2px solid #fff;
+    }
+}

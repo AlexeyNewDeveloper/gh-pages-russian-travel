@@ -21,9 +21,9 @@
 /* Block language-selection */
 
 @import url(../blocks/language-selection/language-selection.css);
-@import url(../blocks/language-selection/__input-language-page/language-selection__input-language-page.css);
-@import url(../blocks/language-selection/__label-language-page/language-selection__label-language-page.css);
-@import url(../blocks/language-selection/__item/language-selection__item.css);
+@import url(../blocks/language-selection/__link/language-selection__link.css);
+@import url(../blocks/language-selection/__link/_checked/language-selection__link_checked.css);
+
 
 /* Block main */
 
@@ -50,6 +50,7 @@
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-item/intro__list-item.css);
 @import url(../blocks/intro/__list/_text-weight/intro__list_text-weight_400.css);
 
 /* Block photo-grid */
@@ -72,7 +73,6 @@
 /* Block cover */
 
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__text-container/cover__text-container.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);

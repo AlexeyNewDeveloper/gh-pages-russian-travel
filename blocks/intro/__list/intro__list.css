@@ -4,9 +4,3 @@
     list-style-type: none;
     padding: 0;
 }
-
-.intro__list:nth-child(1n) {
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 18px;
-}
