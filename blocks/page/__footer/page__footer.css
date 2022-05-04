@@ -1,3 +1,5 @@
 .page__footer {
     margin-block-start: auto;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
 }

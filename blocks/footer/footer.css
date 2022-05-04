@@ -1,4 +1,8 @@
 .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-inline-size: 1184px;
     inline-size: 100%;   
     box-sizing: border-box;
     padding-inline-start: 48px;
@@ -12,8 +16,18 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .footer {
+        flex-direction: column;
+        max-block-size: 100%;
+        align-items: flex-start;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .footer {
         padding-inline-start: 16px;
     }
 }
+
+

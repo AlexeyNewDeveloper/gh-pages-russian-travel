@@ -1,0 +1,9 @@
+.language-selection__item {
+    margin: 0;
+    margin-inline-end: 18px; 
+}
+
+
+.language-selection__item:last-of-type {
+    margin-inline-end: 0; 
+}

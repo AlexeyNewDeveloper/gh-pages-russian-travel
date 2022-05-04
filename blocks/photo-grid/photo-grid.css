@@ -1,7 +1,21 @@
 .photo-grid {
-    max-width: 1184px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(calc(284px - 16px), 1fr));
-    grid-auto-rows: 1fr;
-    gap: 16px;
+    inline-size: 100%;
+    box-sizing: border-box;
+    padding-inline-start: 48px;
+    padding-inline-end: 48px; 
+}
+
+@media screen and (max-width: 768px) {
+    .photo-grid {
+        padding-inline-start: 24px;
+        padding-inline-end: 24px; 
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    .photo-grid {
+        padding-inline-start: 16px;
+        padding-inline-end: 16px; 
+    }
 }

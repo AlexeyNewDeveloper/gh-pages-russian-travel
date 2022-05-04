@@ -3,7 +3,9 @@
     inline-size: 100%;
     box-sizing: border-box;
     padding-inline-start: 48px;
-    padding-inline-end: 48px; 
+    padding-inline-end: 48px;
+    display: flex;
+    flex-direction: column; 
 }
 
 

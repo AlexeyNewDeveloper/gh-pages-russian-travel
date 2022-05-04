@@ -18,17 +18,19 @@
   <body class="page">
     <div class="page__container">
       <header class="header">
-        <div class="header__container">
-          <img src="./images/logo/logo.svg" alt="Логотип сайта." class="logo" />
-          <div class="language-selection">
+        <img src="./images/logo/logo.svg" alt="Логотип сайта." class="logo" />
+        <ul class="language-selection">
+          <li class="language-selection__item">
             <a
               href="#"
               class="language-selection__link language-selection__link_checked"
               >Ru</a
             >
+          </li>
+          <li class="language-selection__item">
             <a href="#" class="language-selection__link">En</a>
-          </div>
-        </div>
+          </li>
+        </ul>
       </header>
       <main class="main">
         <section class="lead main__lead">
@@ -36,118 +38,144 @@
           <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
           </p>
-          <img
-            src="./images/lead/lead-polka.jpg"
-            alt="Карта путешествия."
-            class="lead__map"
-          />
-          <p class="lead__signature">ваша полка — верхняя</p>
+          <figure class="lead__picture">
+            <img
+              src="./images/lead/lead-polka.jpg"
+              alt="Карта путешествия."
+              class="lead__map"
+            />
+            <figcaption class="lead__signature">
+              ваша полка — верхняя
+            </figcaption>
+          </figure>
         </section>
         <section class="intro main__intro">
-          <div class="intro__container">
-            <h2 class="intro__title">Чего мы там не видели?</h2>
-            <p class="intro__text">
-              По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но
-              только 36% планируют провести отпуск в родной стране. Мол, чего мы
-              тут, дома, не видели? На самом деле, Россия — это целая вселенная
-              с ласковым морем юга, густыми лесами Саян и суровыми льдами плато
-              Путорана. А ещё увидеть все эти красоты можно без миллионов на
-              счету, загранпаспорта и многочасовых перелетов. Как, например,
-              Вера Башмакова — смелая молодая мама, которая взяла в охапку троих
-              детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по
-              родной стране. Мы выбрали и описали некоторые интересные места,
-              достойные вашего отпуска.
-            </p>
-            <ul class="intro__list">
-              <li class="intro__list-item">
-                Часовых поясов
-                <span class="intro__list_text-weight_400">11</span>
-              </li>
-              <li class="intro__list-item">
-                Объектов природного наследия ЮНЕСКО
-                <span class="intro__list_text-weight_400">12</span>
-              </li>
-              <li class="intro__list-item">
-                Объектов культурного наследия ЮНЕСКО
-                <span class="intro__list_text-weight_400">16</span>
-              </li>
-              <li class="intro__list-item">
-                Природных заповедников
-                <span class="intro__list_text-weight_400">105</span>
-              </li>
-              <li class="intro__list-item">
-                Аэропортов
-                <span class="intro__list_text-weight_400">241</span>
-              </li>
-            </ul>
-          </div>
+          <h2 class="intro__title">Чего мы там не видели?</h2>
+          <p class="intro__text">
+            По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только
+            36% планируют провести отпуск в родной стране. Мол, чего мы тут,
+            дома, не видели? На самом деле, Россия — это целая вселенная с
+            ласковым морем юга, густыми лесами Саян и суровыми льдами плато
+            Путорана. А ещё увидеть все эти красоты можно без миллионов на
+            счету, загранпаспорта и многочасовых перелетов. Как, например, Вера
+            Башмакова — смелая молодая мама, которая взяла в охапку троих детей,
+            усадила их в свою «Ладу» и проехала 20 тысяч километров по родной
+            стране. Мы выбрали и описали некоторые интересные места, достойные
+            вашего отпуска.
+          </p>
+          <ul class="intro__list">
+            <li class="intro__list-item">
+              Часовых поясов
+              <span class="intro__list-item-statistic">11</span>
+            </li>
+            <li class="intro__list-item">
+              Объектов природного наследия ЮНЕСКО
+              <span class="intro__list-item-statistic">12</span>
+            </li>
+            <li class="intro__list-item">
+              Объектов культурного наследия ЮНЕСКО
+              <span class="intro__list-item-statistic">16</span>
+            </li>
+            <li class="intro__list-item">
+              Природных заповедников
+              <span class="intro__list-item-statistic">105</span>
+            </li>
+            <li class="intro__list-item">
+              Аэропортов
+              <span class="intro__list-item-statistic">241</span>
+            </li>
+          </ul>
         </section>
-        <div class="main__photo-grid-container">
-          <div class="photo-grid">
-            <img
-              class="photo-grid__image"
-              src="./images/photo-grid/photo-grid-arisa.jpg"
-              alt="Машина на льду."
-            />
-            <img
-              class="photo-grid__image"
-              src="./images/photo-grid/photo-grid-atharva-tulsi.jpg"
-              alt="Облака."
-            />
-            <img
-              class="photo-grid__image"
-              src="./images/photo-grid/photo-grid-baikal-2.jpg"
-              alt="Пляж Байкала."
-            />
-            <img
-              class="photo-grid__image"
-              src="./images/photo-grid/photo-grid-baikal.jpg"
-              alt="Горы Байкала."
-            />
-            <img
-              class="photo-grid__image"
-              src="./images/photo-grid/photo-grid-elbrus.jpg"
-              alt="Гора Эльбрус."
-            />
-            <img
-              class="photo-grid__image"
-              src="./images/photo-grid/photo-grid-ergaki.jpg"
-              alt="Горы."
-            />
-            <img
-              class="photo-grid__image"
-              src="./images/photo-grid/photo-grid-kamchatka-1.jpg"
-              alt="Горы в Камчатке."
-            />
-            <img
-              class="photo-grid__image"
-              src="./images/photo-grid/photo-grid-kamchatka-2.jpg"
-              alt="Пейзаж Камчатки с горой."
-            />
-            <img
-              class="photo-grid__image"
-              src="./images/photo-grid/photo-grid-kondratiev.jpg"
-              alt="Бетонные цилиндрические блоки и знак пешехода."
-            />
-            <img
-              class="photo-grid__image"
-              src="./images/photo-grid/photo-grid-sochi.jpg"
-              alt="Пейзаж Сочи."
-            />
-            <img
-              class="photo-grid__image"
-              src="./images/photo-grid/photo-grid-train.jpg"
-              alt="Вид из окна поезда."
-            />
-            <img
-              class="photo-grid__image"
-              src="./images/photo-grid/photo-grid-tuman.jpg"
-              alt="Туман на поле с сеном."
-            />
-          </div>
-        </div>
-        <div class="main__place-container">
-          <section class="place main__place">
+        <section class="photo-grid main__photo-grid">
+          <ul class="photo-grid__items">
+            <li>
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid/photo-grid-arisa.jpg"
+                alt="Машина на льду."
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid/photo-grid-atharva-tulsi.jpg"
+                alt="Облака."
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid/photo-grid-baikal-2.jpg"
+                alt="Пляж Байкала."
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid/photo-grid-baikal.jpg"
+                alt="Горы Байкала."
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid/photo-grid-elbrus.jpg"
+                alt="Гора Эльбрус."
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid/photo-grid-ergaki.jpg"
+                alt="Горы."
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid/photo-grid-kamchatka-1.jpg"
+                alt="Горы в Камчатке."
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid/photo-grid-kamchatka-2.jpg"
+                alt="Пейзаж Камчатки с горой."
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid/photo-grid-kondratiev.jpg"
+                alt="Бетонные цилиндрические блоки и знак пешехода."
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid/photo-grid-sochi.jpg"
+                alt="Пейзаж Сочи."
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid/photo-grid-train.jpg"
+                alt="Вид из окна поезда."
+              />
+            </li>
+            <li>
+              <img
+                class="photo-grid__image"
+                src="./images/photo-grid/photo-grid-tuman.jpg"
+                alt="Туман на поле с сеном."
+              />
+            </li>
+          </ul>
+        </section>
+        <section class="main__place-container">
+          <article class="place main__place">
             <h2 class="place__title">Куршская коса</h2>
             <p class="place__url">
               URL<a href="http://park-kosa.ru" class="place__link"
@@ -175,9 +203,9 @@
                 прохладного моря.
               </p>
             </div>
-          </section>
+          </article>
 
-          <section class="place main__place">
+          <article class="place main__place">
             <h2 class="place__title">Кольский</h2>
             <p class="place__url">
               URL<a
@@ -207,9 +235,9 @@
                 с билетом в Мурманск.
               </p>
             </div>
-          </section>
+          </article>
 
-          <section class="place main__place">
+          <article class="place main__place">
             <h2 class="place__title">Алтай</h2>
             <p class="place__url">
               URL<a
@@ -239,9 +267,9 @@
                 края.
               </p>
             </div>
-          </section>
+          </article>
 
-          <section class="place main__place">
+          <article class="place main__place">
             <h2 class="place__title">Зимний Байкал</h2>
             <p class="place__url">
               URL
@@ -269,9 +297,9 @@
                 197.011 км/ч.
               </p>
             </div>
-          </section>
+          </article>
 
-          <section class="place main__place">
+          <article class="place main__place">
             <h2 class="place__title">Карелия</h2>
             <p class="place__url">
               URL<a href="http://vodlozero.ru/" class="place__link"
@@ -296,28 +324,26 @@
                 помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
               </p>
             </div>
-          </section>
-        </div>
+          </article>
+        </section>
         <section class="cover main__cover">
           <a
             href="https://stampsy.com/na-elektrichkakh-do-baikala"
             class="cover__link"
           >
-            <div class="cover__text-container">
-              <h2 class="cover__title">
-                До Байкала<br />
-                «на собаках»
-              </h2>
-              <p class="cover__subtitle">
-                По мотивам учебной темы о Транссибе — путешествие от столицы до
-                Байкала на электричках.
-              </p>
-            </div>
+            <h2 class="cover__title">
+              До Байкала<br />
+              «на собаках»
+            </h2>
+            <p class="cover__subtitle">
+              По мотивам учебной темы о Транссибе — путешествие от столицы до
+              Байкала на электричках.
+            </p>
           </a>
         </section>
       </main>
       <footer class="footer page__footer">
-        <div class="footer__container">
+        <nav>
           <ul class="footer__menu-items">
             <li class="footer__menu-item">
               <a href="https://yandex.ru/maps" class="footer__menu-link"
@@ -345,8 +371,8 @@
               >
             </li>
           </ul>
-          <p class="footer__copyright">&copy; 2022. Янчев Алексей</p>
-        </div>
+        </nav>
+        <p class="footer__copyright">&copy; 2022. Янчев Алексей</p>
       </footer>
     </div>
   </body>

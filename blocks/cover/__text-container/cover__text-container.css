@@ -1,9 +1,0 @@
-.cover__text-container {
-    box-sizing: border-box;
-    inline-size: 100%;
-    block-size: 100%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    z-index: 2;
-}
