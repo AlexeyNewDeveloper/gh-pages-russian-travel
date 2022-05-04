@@ -5,6 +5,7 @@
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
+    letter-spacing: normal;
     opacity: 1;
     transition: opacity 0.1s linear;
     text-decoration-line: underline;
